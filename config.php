@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db = 'garagem';
-$user = 'root'; // Altere conforme necessário
-$pass = ''; // Altere conforme necessário
+$user = 'root';
+$pass = ''; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
